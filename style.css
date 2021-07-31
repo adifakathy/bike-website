@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+header{
+    background: #264653;
+    height: 700px
+}
+nav ul li a{
+    width: 92px;
+    height: 44px;
+    text-align: center;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    background: #e76f51;
+}
+.active-hover{
+    background: #e76f51; 
+}
+.btn-bacground {
+    background: #e76f51 !important;
+}
+.text-color{
+    color:#e76f51;
+}
+/* line after parapgraph */
+.bikes p::after{
+    content: "";
+    width: 5%;
+    height: 2px;
+    background: #e76f51;
+    display: block;
+    margin: auto;
+
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+
+.btn-outline{
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0.45rem 0.75rem;
+    color: #e76f51 !important;
+    border-radius: 3px;
+    border: 1px solid #e76f51 !important;
+  
+}
+.text-color-2{
+    color: #23a6f0;
+}
+.accordion-item{
+    border: 1px solid #212529 !important;
+}
+.footer-background {
+    background: #0b0d17;
+  }
+  
